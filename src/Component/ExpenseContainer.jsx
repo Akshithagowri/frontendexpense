@@ -62,7 +62,7 @@ const addExpense=async(title,amount)=>{
 console.log(expense[0])
 const deleteExpense = async (id) => {
     try {
-      const response = await fetch(`http://localhost:4000/Expense/${id}`, {
+      const response = await fetch(`https://expense-backend-eg6w.onrender.com/Expense/${id}`, {
         method: 'DELETE',
       });
 
